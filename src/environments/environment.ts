@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  /* Without ending slash */
+  apiUrl: 'https://localhost.mina7.net:8000',
 };
 
 /*

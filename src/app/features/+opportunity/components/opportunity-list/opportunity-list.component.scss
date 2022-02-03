@@ -1,0 +1,29 @@
+:host {
+  display: block;
+}
+
+@media all {
+
+  .app-opportunity-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .app-opportunity-list>app-opportunity-item {
+    flex: calc(100% / 3);
+  }
+
+}
+
+@media all and (max-width: 459px) {
+
+  .app-opportunity-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .app-opportunity-list>app-opportunity-item {
+    flex: 100%;
+  }
+
+}
