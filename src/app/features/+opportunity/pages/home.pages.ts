@@ -7,7 +7,7 @@ import { OpportunityService } from "../services/opportunity.service";
   template : `
      <div>
       <div>
-        <mat-toolbar><span i18n>Opps à la une</span></mat-toolbar>
+        <mat-toolbar><span i18n>Opps à la une !</span></mat-toolbar>
         <app-slideshow [delay]="3000" *ngIf="slides$ | async as slides; else slidesLoading">
           <app-slide *ngFor="let slide of slides">
             <app-opportunity-slide [slide]="slide" [routerLink]="['../opportunity', slide.id]"></app-opportunity-slide>
