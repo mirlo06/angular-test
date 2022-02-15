@@ -5,6 +5,13 @@
   "projects": {
     "youth-corner": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "fr": "src/locale/messages.fr.xlf",
+          "ar": "src/locale/messages.ar.xlf"
+        }
+    },
       "schematics": {
         "@schematics/angular:component": {
           "inlineTemplate": true,
@@ -62,6 +69,12 @@
               ],
               "outputHashing": "all"
             },
+            "fr": {
+              "localize": ["fr"]
+            },
+            "ar": {
+              "localize": ["ar"]
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -78,6 +91,12 @@
           "configurations": {
             "production": {
               "browserTarget": "youth-corner:build:production"
+            },
+            "fr": {
+              "browserTarget": "youth-corner:build:fr"
+            },
+            "ar": {
+              "browserTarget": "youth-corner:build:ar"
             },
             "development": {
               "browserTarget": "youth-corner:build:development"

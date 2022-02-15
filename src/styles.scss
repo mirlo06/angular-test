@@ -130,7 +130,6 @@ html {
 app-root {
   display: block;
   margin: 0 auto;
-  max-width: 960px;
 }
 
 /* Menu */
@@ -159,3 +158,6 @@ button+p>a {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

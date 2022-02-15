@@ -7,12 +7,18 @@ import { Auth } from '@core/auth';
 @Component({
   selector: 'app-root',
   template: `
-    <div>
+
       <app-header [isAuthenticated]="isAuthenticated$ | async" [reservationsCount]="reservationsCount$"></app-header>
       <main>
         <router-outlet></router-outlet>
       </main>
-    </div>
+
+      <!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+footer
+</footer>
+<!-- Footer -->
+
   `,
   styleUrls: ['./app.component.scss']
 })

@@ -11,14 +11,20 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { OpportunitySlideComponent } from './components/opportunity-slide/opportunity-slide/opportunity-slide.component';
 import { OpportunityListComponent } from './components/opportunity-list/opportunity-list.component';
 import { OpportunitiesItemComponent } from './components/opportunities-item/opportunities-item.component';
+import { OpportunitiesPage } from './pages/opportunities/opportunities.page';
+import { CardsComponent } from './components/cards/cards.component';
+import { CardItemComponent } from './components/card-item/card-item.component';
 
 
 @NgModule({
   declarations: [
     HomePage,
+    OpportunitiesPage,
     OpportunitySlideComponent,
     OpportunityListComponent,
-    OpportunitiesItemComponent
+    OpportunitiesItemComponent,
+    CardsComponent,
+    CardItemComponent
   ],
   imports: [
     CommonModule,
@@ -28,6 +34,10 @@ import { OpportunitiesItemComponent } from './components/opportunities-item/oppo
     MatToolbarModule,
     SlideshowModule,
     OpportunityRoutingModule
+  ],
+  exports: [
+    CardsComponent,
+    CardItemComponent
   ]
 })
 export class OpportunityModule { }

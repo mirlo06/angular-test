@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   /* Without ending slash */
-  apiUrl: 'https://localhost.mina7.net:8000',
+  apiUrl: 'https://localhost:8000',
 };
 
 /*

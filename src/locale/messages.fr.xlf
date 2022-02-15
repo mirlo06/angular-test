@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="466492426610382126" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{item.label}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core-declarations/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core-declarations/layout/menu/menu.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2470503829825948341" datatype="html">
+        <source>Votre ville</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/city/city.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4889867881811864972" datatype="html">
+        <source>Votre adresse e-mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/email/email.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="453883488975426347" datatype="html">
+        <source>L&apos;e-mail est obligatoire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/email/email.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7978304472940058831" datatype="html">
+        <source>Votre mot de passe</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/passwords/passwords.component.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login-reactive/login-reactive.page.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1793062357925695203" datatype="html">
+        <source>Le mot de passe est obligatoire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/passwords/passwords.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login-reactive/login-reactive.page.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2065441224471762286" datatype="html">
+        <source>Confirmez-le</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/passwords/passwords.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6584831187566188545" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {Vous n&apos;avez pas de réservation} =1 {Vous avez une réservation} other {Vous avez <x id="INTERPOLATION"/> réservations}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8871274990030594152" datatype="html">
+        <source><x id="ICU" equiv-text="{reservations.length, plural,
+      =0 {Vous n&apos;avez pas de réservation}
+      =1 {Vous avez une réservation}
+      other {Vous avez {{ reservations.length }} réservations}}" xid="2606045128221661259"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">9,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5696426442699897685" datatype="html">
+        <source>Film</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7524269877164457714" datatype="html">
+        <source>Cinéma</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6028112083860807777" datatype="html">
+        <source>Séance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6783960265706822715" datatype="html">
+        <source> Annuler cette réservation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/components/reservations-list/reservations-list.component.ts</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2619294037655547138" datatype="html">
+        <source>Authentification</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login-reactive/login-reactive.page.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3958747654245591007" datatype="html">
+        <source>S&apos;authentifier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login-reactive/login-reactive.page.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="390422148369870627" datatype="html">
+        <source> Pas encore inscrit/e ? Créez un compte. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login-reactive/login-reactive.page.ts</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2161333311113316203" datatype="html">
+        <source>Votre adresse e-mail ou pseudo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1516706925109316426" datatype="html">
+        <source>L&apos;e-mail ou pseudo est obligatoire</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3661034995636679167" datatype="html">
+        <source>Pas encore inscrit/e ? Créez un compte.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/login/login.page.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7847382939362404928" datatype="html">
+        <source>Désauthentification</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/logout/logout.page.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2426312612634857477" datatype="html">
+        <source>Désauthentification réussie.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/logout/logout.page.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2660241427029030" datatype="html">
+        <source>Se réauthentifier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/logout/logout.page.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5363940464046088994" datatype="html">
+        <source>Profil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8698351370188493604" datatype="html">
+        <source>Réservation en cours...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="341284150862521087" datatype="html">
+        <source>Se désauthentifier</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="812397608051276848" datatype="html">
+        <source>Réservation confirmée</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8998179362936748717" datatype="html">
+        <source>OK</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">73,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3880954414110097117" datatype="html">
+        <source>Echec de la réservation (pas de connexion Internet)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/profile/profile.page.ts</context>
+          <context context-type="linenumber">72,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6474835368012891360" datatype="html">
+        <source>Inscription</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7797909123395525404" datatype="html">
+        <source>Attention : il s&apos;agit d&apos;une app de test. E-mail et mot de passe sont stockés en clair.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6998955537221341913" datatype="html">
+        <source> Valider l&apos;inscription </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="712213689316629366" datatype="html">
+        <source>Déjà inscrit/e ? Authentifiez-vous.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3759222572602229285" datatype="html">
+        <source>Inscription en cours...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8274630465802657174" datatype="html">
+        <source>Inscription réussie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3858314034358317313" datatype="html">
+        <source>Pas de connexion Internet</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register-reactive/register-reactive.page.ts</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3897687524315988137" datatype="html">
+        <source> Attention : il s&apos;agit d&apos;une app de test. E-mail et mot de passe sont stockés en clair. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7688375119402516121" datatype="html">
+        <source>J&apos;ai une carte :</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4709450557795328287" datatype="html">
+        <source>Non</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="311686294435383162" datatype="html">
+        <source>Genre de film préféré</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6463697254407947212" datatype="html">
+        <source>Non spécifié</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9216117865911519658" datatype="html">
+        <source>Action</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8561331637711411223" datatype="html">
+        <source>Comédie</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8363876830584264979" datatype="html">
+        <source>Drame</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3621871641766345499" datatype="html">
+        <source>Horreur</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6711391269608445966" datatype="html">
+        <source>A propos de vous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2224870529667897436" datatype="html">
+        <source>J&apos;accepte les conditions d&apos;utilisation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+account/pages/register/register.page.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3961146327185037901" datatype="html">
+        <source>Page introuvable</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/not-found/not-found.page.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4634493694865822214" datatype="html">
+        <source>La page que vous recherchez n&apos;existe pas.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/not-found/not-found.page.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="504434396901880554" datatype="html">
+        <source>Revenir à la page d&apos;accueil</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/not-found/not-found.page.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="552199314325098405" datatype="html">
+        <source>Mode hors ligne</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/offline/offline.page.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8943515386319642790" datatype="html">
+        <source>Cette page nécessite une connexion Internet.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/offline/offline.page.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5676403434340878356" datatype="html">
+        <source>Accéder à vos réservations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/offline/offline.page.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/unavailable/unavailable.page.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1574708883389968419" datatype="html">
+        <source>Service inaccessible</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/unavailable/unavailable.page.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6550047005761330575" datatype="html">
+        <source>Le service est momentanément indisponible. Merci de réessayer ultérieurement.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+oops/pages/unavailable/unavailable.page.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="205939213401098566" datatype="html">
+        <source>Opps à la une</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+opportunity/pages/home.pages.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5370629853860960347" datatype="html">
+        <source>Tous les opps</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/features/+opportunity/pages/home.pages.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
